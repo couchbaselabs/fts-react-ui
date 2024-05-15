@@ -1,0 +1,30 @@
+.leaf-query-container {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  padding: 20px;
+}
+
+.select-container,
+.search-type-container,
+.input-container
+.custom-field-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.select-container select,
+.input-container input,
+.search-type-container select,
+.custom-field-container input {
+    width: 200px;
+  margin-right: 15px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
